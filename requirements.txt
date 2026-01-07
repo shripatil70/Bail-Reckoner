@@ -13,6 +13,8 @@ scikit-optimize
 imbalanced-learn
 catboost
 joblib
+google-generativeai
+gunicorn
 
 # PDF & Utils
 pypdf
