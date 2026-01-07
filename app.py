@@ -51,7 +51,7 @@ CORS(app, resources={r"/*": {"origins": "http://localhost:3000"}})
 
 FIREBASE_SERVICE_ACCOUNT_PATH = os.environ.get("FIREBASE_SERVICE_ACCOUNT_PATH", "bail-reckoner-c1c83-firebase-adminsdk-fbsvc-c8d2fb57c7.json")
 
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "AIzaSyD6EAuVkl9rFltUmn-Z0HGHw0mMUiCgDmE")
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 
 GEMINI_MODEL = "gemini-2.5-flash-preview-09-2025"
 
