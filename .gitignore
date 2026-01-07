@@ -1,0 +1,13 @@
+# Ignore Python virtual environment
+venv/
+__pycache__/
+
+# Ignore sensitive Firebase and API keys
+*.json
+.env
+
+# Ignore large ML models and datasets
+*.pkl
+*.joblib
+*.csv
+catboost_info/

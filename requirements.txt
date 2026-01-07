@@ -1,0 +1,20 @@
+# requirements.txt
+# Web Framework
+flask
+flask-cors
+
+# Google Firebase
+firebase-admin
+
+# Data Processing & ML
+pandas
+scikit-learn
+scikit-optimize
+imbalanced-learn
+catboost
+joblib
+
+# PDF & Utils
+pypdf
+requests
+pytz
